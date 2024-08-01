@@ -149,7 +149,7 @@ function showModal() {
     overlay.classList.remove("hidden");
     if (score <= 3) {
         // modalElement.classList.remove('hidden');
-        Image.src = '/images/sad.jpeg';
+        Image.src = 'images/sad.jpeg';
         Congrats.textContent= '';
         // finalScore.textContent = `You scored ${score} out of ${questions.length}.`;
     } else {

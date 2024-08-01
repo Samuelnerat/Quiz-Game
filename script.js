@@ -151,9 +151,12 @@ function showModal() {
         // modalElement.classList.remove('hidden');
         Image.src = './images/sad.jpeg';
         Congrats.textContent= '';
+        Yikes.textContent = 'Thank you for trying';
         // finalScore.textContent = `You scored ${score} out of ${questions.length}.`;
     } else {
         Yikes.textContent = '';
+        Congrats.textContent = 'Well Done!!!!😍';
+        Image.src = './images/smiley.jpeg';
         // modalElement.classList.remove('hidden');
         // finalScore.textContent = `You scored ${score} out of ${questions.length}.`;
     }

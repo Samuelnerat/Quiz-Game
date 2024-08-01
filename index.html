@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+    <div class="quiz-container">
+        <h1>Quiz App</h1>
+        <p id="question-number">Question 1</p>
+        <div id="question" class="question"></div>
+        <ul id="options" class="options"></ul>
+        <div id="message" class="message"></div>
+
+        <!-- <button id="submit" class="button">Submit</button> -->
+        <button id="start-over" class="button hidden btn">Start Over</button>
+    </div>
+
+    <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1 class="congrats">Well Done!!!!😍</h1>
+        <h1>Quiz Over</h1>
+        <p class="yikes"> Thank you for trying</p>
+
+        <img src="images/smiley.jpeg" alt="emoji" width="150" class="image">
+
+        <h2 id="final-score">You scored 0 out of 10</h2>
+
+        <button id="retry" class="button btn">Retry</button>
+    </div>
+    <div class="overlay hidden"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

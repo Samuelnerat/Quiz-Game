@@ -1,15 +1,15 @@
 const questions = [
     {
-        id: "Question 1",
-        text: "What is the capital of France?",
-        options: ["Berlin", "Madrid", "Paris", "Lisbon"],
-        correct: "Paris"
+         id: "Question 1",
+        text: 'Which country won the FIFA World Cup in 2018?',
+        options: ['Brazil', 'Germany', 'France', 'Argentina'],
+        answer: 'France',
     },
     {
         id: "Question 2",
-        text: "Which planet is known as the Red Planet?",
+        text: "Which planet is the 3rd Planet in the Solar system?",
         options: ["Earth", "Mars", "Jupiter", "Saturn"],
-        correct: "Mars"
+        correct: "Earth"
     },
     {
         id: "Question 3",
@@ -31,9 +31,9 @@ const questions = [
     },
     {
         id: "Question 6",
-        text: "What is the chemical symbol for gold?",
+        text: "What is the chemical symbol for silver?",
         options: ["Au", "Ag", "Pb", "Fe"],
-        correct: "Au"
+        correct: "Ag"
     },
     {
         id: "Question 7",

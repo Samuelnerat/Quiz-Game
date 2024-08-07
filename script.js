@@ -3,7 +3,7 @@ const questions = [
          id: "Question 1",
         text: 'Which country won the FIFA World Cup in 2018?',
         options: ['Brazil', 'Germany', 'France', 'Argentina'],
-        answer: 'France',
+        correct: 'France',
     },
     {
         id: "Question 2",
